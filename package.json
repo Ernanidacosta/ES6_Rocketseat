@@ -1,0 +1,12 @@
+{
+  "name": "ES6_Rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Ernanidacosta/ES6_Rocketseat.git",
+  "author": "Ernani da Costa <ernanidacosta@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-env": "^7.8.7"
+  }
+}
