@@ -10,13 +10,21 @@ class List {
 }
 
 class todoList extends List {
-    constructor{
-            
+    constructor(){
+        super();
+
+        this.usuario = "Ernani";
+    }
+
+    mostraUsuario(){
+        console.log(this.usuario);
     }
 }
 
-const MinhaLista = new todoList();
+var MinhaLista = new todoList();
 
 document.getElementById('novotodo').onclick = function(){
     MinhaLista.add('Novo TODO');
 }
+
+MinhaLista.mostraUsuario();
