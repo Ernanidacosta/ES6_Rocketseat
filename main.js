@@ -1,0 +1,9 @@
+class Exemplo {
+    metodoExemplo(){
+    
+    }
+
+    outroExemplo(){
+
+    }
+}
